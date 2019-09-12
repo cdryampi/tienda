@@ -1,0 +1,20 @@
+
+1. importrar las dependencias en settings.py
+
+2. migrar la nueva configuración.
+
+3. En las vistas (views.py) mirar que las funciones y/o metodos revuelvan el valor o el redirect correctamente
+
+4. Mirar que en los modelos esten creando las tablas correctas.
+
+5. Mirar si la APP tiene sus dependencias como template-%APP-Nom% y sus vitaminas(css.js)
+
+6. Si falla la base de datos utilizar el Postgree
+
+7. Siempre importar los paquetes necesarios para funcionar.
+
+8. Mirar en Urls de la app para redireccionar o en caso alternativo mirar en la Urls.py de la app.
+
+9. Si la web la a hacer manipulada desde el panel del administrador mirar que el admin.py de la app este correctamente y en setting.py mirar que el modo DEBUG este funcionando correctamente.
+
+ 

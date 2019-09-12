@@ -1,0 +1,24 @@
+¿Qué tipo de campo utilizarías para almacenar un número entero positivo y pequeño?
+
+PositiveSmallIntegerField
+
+¿Qué tipo de campo utilizarías para almacenar un booleano pero que también permita un valor nulo?
+
+NullBooleanField
+
+Cuando debemos tratar números decimales, Django nos ofrece dos campos DecimalField y FloatField. El primero genera instancias de tipo <Decimal> y el segundo <float>. Una de las diferencias más importantes es que los DecimalField no están sujetos a los problemas de redondeo inherentes de la clase <float>.
+
+Con lo que te he explicado, si en algún momento debes crear un campo para almacenar una cantidad de dinero (precios y pagos), ¿qué tipo de campo crees que debes escoger?
+
+DeciamlField
+
+Si tuvieras que almacenar una cadena de texto de longitud indeterminada, ¿qué tipo de campo debes utilizar?
+
+TextField
+
+
+¿Qué campos elegirías para almacenar una hora, una fecha y hora y una fecha respectivamente? Selecciona la respuesta que esté en el orden correcto.
+
+TimeField, DateTimeField y DateField
+
+

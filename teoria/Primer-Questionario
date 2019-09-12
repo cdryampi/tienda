@@ -1,0 +1,33 @@
+En la herencia de Templates, ¿dónde se utiliza el Tag {% extends %}?
+
+En el template hijo
+
+¿Cuántos Tags {% block %} se pueden definir en un Template?
+
+Tantos como se necesiten
+
+Si tuvieras que comprobar una expresión en un Template, ¿qué Tag utilizarías?
+
+El Tag {% if %}
+
+Si tuvieras que recorrer los elementos de una lista dentro de un Template, ¿qué Tag deberías utilizar?
+
+El Tag {% for %}
+
+Dentro de un Tag {% for %} para recorrer una lista, ¿qué hace el tag {% empty %}?
+
+Permite detectar si la lista está vacía
+
+¿Qué hace el Tag {% with %}?
+
+Permite declarar una o más variables dentro del Template a partir de otros valores.
+
+¿Para qué sirve el Tag {% firstof %}?
+
+Permite ejecutar un bloque de código si después de comparar varias variables alguna de ellas concuerda con un valor.
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+# Consultar la versión de Python por defecto
+python -V
+
+# Crear entorno Conda vacío con Python 3.7
+conda create -n django2 python==3.7 sqlite==3.25.3
+
+# Activar el entorno virtual
+activate django2
+
+# Listar los paquetes instalados en el entorno virtual
+(django2) pip list
+
+# Instalar Django en el entorno virtual
+(django2) pip install django  # se puede instalar cualquier versión con django==2.0.2 o la que sea
+
+# Crear un proyecto de Django
+(django2) django-admin startproject proyecto
+
+# Desinstalar Django del entorno virtual
+(django2) pip uninstall django
+
+# Desactivar el entorno virtual
+(django2) deactivate

@@ -1,0 +1,24 @@
+Entornos Virtuales.
+
+IDE
+
+https://hcosta.github.io/instalardjango.com/visualstudiocode/
+
+DJANGO
+https://hcosta.github.io/instalardjango.com/
+
+Pillow gestor de imagenes.
+
+
+pip install Pillow
+
+para las bases de datos POSTGRESQL
+
+pip install psycopg2
+
+para las dependencias de injección de html a atravez de parametos
+pip install pylint-django
+
+Para el editor de la página del administrador
+
+pip install django-ckeditor -> añadirlo en setting.py del main. en INSTALED_APPS

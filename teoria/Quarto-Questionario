@@ -1,0 +1,31 @@
+Si quisiéramos contar el número de palabras de una {{cadena}} de texto en un Template, ¿qué filtro utilizarías?
+
+{{cadena|wordcount}}
+
+¿Y para mostrar el número de elementos de una List o QuerySet llamada {{projects}}?
+
+{{projects|length}}
+
+Si quisiéramos transformar una {{cadena}} a un formato especial para que sólo contenga alfanuméricos o guiones, ¿qué filtro deberíamos utilizar?
+
+{{cadena|slugify}}
+
+¿Y cómo haríamos para transformar una {{cadena}} toda a minúsculas?
+
+{{cadena|lower}}
+
+Si necesitamos acceder rápidamente al último elemento de una {{lista}} utilizaríamos el filtro...
+
+{{lista|last}}
+
+Si tuviéramos una cadena {{titulo}} demasiado larga y quisiéramos recortarla a 20 caracteres porque no tenemos suficiente espacio, ¿qué filtro utilizaríamos?
+
+{{titulo|truncatechars:"20"}}
+
+Por último, imagina que tenemos una variable {{respuesta}} de tipo NullBooleanField que puede contener tres valores: True, False o None. ¿Qué filtro utilizaríais para mostrar un "Sí", "No", "No sabe/No contesta" en lugar del valor booleano?
+
+{{respuesta|yesno:"Sí,No,No sabe/No contesta"}}
+
+
+
+

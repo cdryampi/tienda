@@ -1,0 +1,116 @@
+Render de tamplates a vistas
+
+https://docs.djangoproject.com/en/2.0/topics/http/shortcuts/#render
+
+Plantillas en Django
+
+https://docs.djangoproject.com/en/2.0/ref/templates/
+
+Introduccion a las plantillas de Django
+
+https://docs.hektorprofe.net/django/web-personal/introduccion-plantillas-templates/
+
+LINKS del repositorio
+
+https://github.com/hcosta/webpersonal/tree/master/webpersonal/core
+
+Template extend
+
+https://docs.djangoproject.com/en/2.0/ref/templates/builtins/#extends
+
+Build Template dinamico (bucles)
+
+https://docs.djangoproject.com/en/2.0/ref/templates/builtins/#block
+
+URL en template
+
+https://docs.hektorprofe.net/django/web-personal/template-tag-url/
+
+Opciones de modelos Django 2.x
+
+https://docs.djangoproject.com/en/2.0/ref/models/options/
+
+Opciones del admin Django 2.x
+
+https://docs.djangoproject.com/en/2.0/ref/contrib/admin/#django.contrib.admin.ModelAdmin.readonly_fields
+
+Grabar ficheros
+
+https://docs.djangoproject.com/en/2.0/howto/static-files/#serving-files-uploaded-by-a-user-during-development
+
+
+injección de etiquetas html en funciones de retorno de django para personalizar el panel de admin.
+
+
+https://stackoverflow.com/questions/47953705/how-do-i-use-allow-tags-in-django-2-0-admin
+
+Filtros para datos
+
+
+https://docs.djangoproject.com/en/2.0/ref/templates/builtins/#date
+
+
+Enlaces para la página de administrador
+
+https://docs.djangoproject.com/en/2.0/ref/contrib/admin/#reversing-admin-urls
+
+Formularios para en Django y sus campos
+
+https://docs.djangoproject.com/en/2.0/topics/forms/
+
+https://docs.djangoproject.com/en/2.0/ref/forms/fields/#built-in-field-classes
+
+Peligro a la hora de utilizar formularios
+
+https://es.wikipedia.org/wiki/Cross-site_request_forgery
+
+Render personalizado para formularios u otros
+
+https://docs.djangoproject.com/en/2.0/topics/forms/#rendering-fields-manually
+
+
+
+Envia Correo Django
+
+https://docs.djangoproject.com/en/2.0/topics/email/
+
+
+mail para web
+
+https://mailtrap.io/
+
+
+Metodos para asegurar la web del Admin
+
+https://docs.djangoproject.com/en/2.0/ref/contrib/admin/#modeladmin-methods
+
+
+Vistas basadas en clases Python Django2
+
+https://ccbv.co.uk/
+
+Mixins
+
+https://docs.djangoproject.com/en/2.0/topics/class-based-views/mixins/
+
+Permisos
+
+https://docs.djangoproject.com/en/2.0/topics/class-based-views/intro/#decorating-class-based-views
+
+
+backend Email
+
+https://docs.djangoproject.com/en/2.0/topics/email/#email-backends
+
+
+Paginador
+
+https://docs.djangoproject.com/en/2.0/topics/pagination/
+
+
+Despliegue
+
+
+https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
+
+

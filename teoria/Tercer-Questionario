@@ -1,0 +1,49 @@
+En un campo DateTimeField, DateTime o TimeField, ¿para qué sirven las opciones auto_now y auto_now_add?
+
+auto_now_add guarda el momento de creación de la instancia en el campo y auto_now el momento de la última actualización.
+
+¿Para qué sirve la opción  choices?
+
+Es una opción que permite generar una lista desplegable de opciones si se le pasan en una tupla de tuplas.
+
+¿Qué ocurrirá si se establece la opción editable de un campo en False?
+
+Que el campo se esconderá, tanto en el administrador como los posibles formularios.
+
+¿Qué opción sirve para establecer un valor por defecto a un campo?
+
+default
+
+Si quisiéramos establecer un nombre de campo, ¿qué opción utilizaríamos?
+
+verbose_name
+
+Para que un registro pueda estar vacío en el panel de administrador, ¿qué campo o campos son obligatorios poner en True?
+
+Ambos: blank y null
+
+
+¿Qué opción sirve para mostrar información extendida en un campo?
+
+help_text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

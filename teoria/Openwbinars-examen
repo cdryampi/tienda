@@ -1,0 +1,40 @@
+¿Cuál es la función del archivo de requisitos del proyecto?	Listar las dependencias, Instalar las dependencias, Conocer la versión de las dependencias
+Incorrecto
+La clase ModelViewSet del Django REST Framework...	implementa una funcionalidad de creación de instancias
+Correcto
+Para filtrar las entradas, realizamos:	Ninguna de las anteriores
+Correcto
+Sobre el proceso de validación de formularios	Django realiza una validación estándar de un campo, antes de la validación personalizadaq
+Correcto
+El código {% for sombrero in sombrero_list %}	Necesita {% endfor %}
+Correcto
+Los decoradores...	deben declararse en settings.py
+Incorrecto
+Los formsets...	permiten crear varias instancias de un modelo
+Incorrecto
+Sobre el Django Admin Panel	Solo los usuarios admin tienen acceso
+Correcto
+Las templates...	deben estar dentro de cada app
+Incorrecto
+Los middlewares...	deben declararse en settings.py
+Correcto
+Sobre el coódigo {% if something %}	Necesita {% endif %}
+Correcto
+La consulta Sombrero.objects.first().count()	Devuelve un número
+Incorrecto
+El archivo settings.py...	es necesario
+Correcto
+Para crear una relación many to many...	Django provee el campo ManyToManyField, Django crea una tabla para registrar los pares asociados
+Correcto
+Una view de Django...	siempre recibe el objecto request, debe tener asociada una template
+Incorrecto
+El Django REST framework...	incluye diferentes serializadores, sirve para crear APIs
+Correcto
+Los mixins...	se usan en las vistas basadas en funciones
+Incorrecto
+A la hora de implementar tests unitarios...	necesitamos la herramienta Coverage
+Incorrecto
+¿Cuál campo necesita el paquete Pillow?	ImageField
+Correcto
+¿Qué bases de datos puede manejar Django?	SQLite
+Incorrecto

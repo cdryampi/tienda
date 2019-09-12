@@ -1,0 +1,29 @@
+Crear proyecto
+django-admin startproject mysite
+
+Crear una vista
+python manage.py startapp core
+
+migrar1:
+python manage.py makemigrations
+
+migrar2:
+python manage.py migrate
+
+Iniciar el proyecto
+python manage.py runserver
+
+Crear un superusuario para administrar la web
+pyhton manage.py createuseruser
+
+URLS:
+path('category/<category_id>/',views.category,name="category"), => son cadenas de caracteres
+Solución => path('category/<int:category_id>/',views.category,name="category")
+
+
+
+
+
+
+
+
