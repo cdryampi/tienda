@@ -1,0 +1,13 @@
+
+ MINICONDA
+ 
+Instalar esta versión de miniconda. miniconda3 4.3.31 64 bits.
+
+ENTORNO VIRTUAL
+
+conda create -n django2 python==3.7 sqlite==3.25.3
+
+Instalar las dependencias
+
+
+pip install -r requirements.txt
