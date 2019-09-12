@@ -1,3 +1,12 @@
-{% load static %}
-{% include 'core/core.html' %}
-<h1> Mi tienda virtual </h1>
+
+{% extends 'core/base.html' %}
+{% block title %}Portada{% endblock title %}
+  
+{% block background %}{% load static %}{% static 'core/img/background.jpg' %}{% endblock background %}
+
+{% block headers %}<h1>SmartIoT</h1><span class="subheading">Empresa dedicada a la venta de dispositivos inteligentes. </span>{% endblock %}
+
+
+
+{# Display a form #}
+
