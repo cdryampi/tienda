@@ -3,8 +3,7 @@
     height: 3pc;
 }
 
-
-/* body {
+body {
     font-size: 20px;
     color: #212529;
     font-family: Lora, 'Times New Roman', serif
@@ -123,22 +122,18 @@ img::-moz-selection {
         border-bottom: 1px solid transparent;
         background: 0 0
     }
-
     #mainNav .navbar-brand {
         padding: 10px 20px;
         color: #fff
     }
-
     #mainNav .navbar-brand:focus,
     #mainNav .navbar-brand:hover {
         color: rgba(255, 255, 255, .8)
     }
-
     #mainNav .navbar-nav>li.nav-item>a {
         padding: 10px 20px;
         color: #fff
     }
-
     #mainNav .navbar-nav>li.nav-item>a:focus,
     #mainNav .navbar-nav>li.nav-item>a:hover {
         color: rgba(255, 255, 255, .8)
@@ -157,7 +152,6 @@ img::-moz-selection {
         transform: translate3d(0, 0, 0);
         -webkit-backface-visibility: hidden
     }
-
     #mainNav.is-fixed {
         position: fixed;
         top: -67px;
@@ -167,25 +161,20 @@ img::-moz-selection {
         border-bottom: 1px solid #fff;
         background-color: rgba(255, 255, 255, .9)
     }
-
     #mainNav.is-fixed .navbar-brand {
         color: #212529
     }
-
     #mainNav.is-fixed .navbar-brand:focus,
     #mainNav.is-fixed .navbar-brand:hover {
         color: #0085a1
     }
-
     #mainNav.is-fixed .navbar-nav>li.nav-item>a {
         color: #212529
     }
-
     #mainNav.is-fixed .navbar-nav>li.nav-item>a:focus,
     #mainNav.is-fixed .navbar-nav>li.nav-item>a:hover {
         color: #0085a1
     }
-
     #mainNav.is-visible {
         -webkit-transform: translate3d(0, 100%, 0);
         -moz-transform: translate3d(0, 100%, 0);
@@ -225,7 +214,6 @@ header.masthead .site-heading {
 }
 
 @media only screen and (min-width:768px) {
-
     header.masthead .page-heading,
     header.masthead .post-heading,
     header.masthead .site-heading {
@@ -255,7 +243,6 @@ header.masthead .site-heading .subheading {
 }
 
 @media only screen and (min-width:768px) {
-
     header.masthead .page-heading h1,
     header.masthead .site-heading h1 {
         font-size: 80px
@@ -294,7 +281,6 @@ header.masthead .post-heading .meta a {
     header.masthead .post-heading h1 {
         font-size: 55px
     }
-
     header.masthead .post-heading .subheading {
         font-size: 30px
     }
@@ -461,4 +447,4 @@ footer .copyright {
 .btn-lg {
     font-size: 16px;
     padding: 25px 35px
-} */
+}
