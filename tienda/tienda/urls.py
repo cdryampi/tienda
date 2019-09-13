@@ -18,12 +18,15 @@ from django.urls import path
 from core import views as core_views
 from django.conf import settings
 from productos import views as products_views
+from facturacion import views as facturacion_views
 
 urlpatterns = [
     # pagina del home"""
     path('',core_views.home, name="home"),
     # página de los productos
     path('productos/',products_views.Productos, name="products"),
+    # Página para facturar
+    path('facturacion/',facturacion_views.Facturacion, name="facturacion"),
     # Ruta del admin """
     path('admin/', admin.site.urls),
 

@@ -448,3 +448,13 @@ footer .copyright {
     font-size: 16px;
     padding: 25px 35px
 }
+
+div#cards {
+    width: 100%;
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    /* margin-right: auto; */
+    /* margin-left: auto;*/
+    padding: 0;
+    margin: 0;
+}

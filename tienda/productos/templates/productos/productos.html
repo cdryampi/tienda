@@ -6,48 +6,18 @@
 
 {% block headers %}<h1>SmartIoT</h1><span class="subheading">Prodcutos destacados. </span>{% endblock %}
 {% block content %}
-<div class="container">
-  <div class="row justify-content-md-center">
-<div class="card m-1" style="width: 18rem;">
-  <img src="{% static 'core/img/mini.jpg'%}" class="card-img-top" alt="...">
+<div class="container col-12">
+  <div class="row justify-content-md-center col-12">
+  {% for producto in productos  %}
+<div class="card m-1 col-3" style="width: 18rem;">
+  <img src="{{producto.image.url}}" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">{{producto.title}}</h5>
+    <p class="card-text">{{producto.description}}</p>
+    <a href="#" class="btn btn-primary">{{producto.price}}€</a>
   </div>
 </div>
-<div class="card m-1" style="width: 18rem;">
-  <img src="{% static 'core/img/mini.jpg'%}" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-<div class="card m-1" style="width: 18rem;">
-  <img src="{% static 'core/img/mini.jpg'%}" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-<div class="card m-1" style="width: 18rem;">
-  <img src="{% static 'core/img/mini.jpg'%}" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-<div class="card m-1" style="width: 18rem;">
-  <img src="{% static 'core/img/mini.jpg'%}" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+{% endfor %}
 </div>
 </div>
 {% endblock content %}

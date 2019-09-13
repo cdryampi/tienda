@@ -8,13 +8,13 @@
     <a class="navbar-brand" href="{% url  'home' %}">      <img src="{% static "core/img/smartiot.png" %}" class="img-logo"></a>
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link" href="{% url  'home' %}">Home</a>
+        <a class="nav-link" href="{% url  'home' %}">Inicio</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{% url 'products' %}">Productos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-link" href="{% url 'facturacion' %}">Facturación</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
