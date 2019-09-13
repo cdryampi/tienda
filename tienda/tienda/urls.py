@@ -17,10 +17,13 @@ from django.contrib import admin
 from django.urls import path
 from core import views as core_views
 from django.conf import settings
+from productos import views as products_views
 
 urlpatterns = [
     # pagina del home"""
     path('',core_views.home, name="home"),
+    # página de los productos
+    path('productos/',products_views.Productos, name="products"),
     # Ruta del admin """
     path('admin/', admin.site.urls),
 
