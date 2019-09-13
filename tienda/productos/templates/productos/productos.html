@@ -7,9 +7,9 @@
 {% block headers %}<h1>SmartIoT</h1><span class="subheading">Prodcutos destacados. </span>{% endblock %}
 {% block content %}
 <div class="container col-12">
-  <div class="row justify-content-md-center col-12">
+  <div class="row justify-content-md-center ">
   {% for producto in productos  %}
-<div class="card m-1 col-3" style="width: 18rem;">
+<div class="card m-1 col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
   <img src="{{producto.image.url}}" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">{{producto.title}}</h5>
